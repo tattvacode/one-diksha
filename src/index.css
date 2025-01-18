@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.mycontainer{
+    background-image: url('../src/components/assets/image/image.png');
+    background-size: cover;
+}
+.mycontainer2{
+    background-image: url('../src/components/assets/image/img2.png');
+    background-size: cover;
+}
+.mycontainer3{
+    background-image: url('../src/components/assets/image/img.png');
+    background-size:contain;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+  
